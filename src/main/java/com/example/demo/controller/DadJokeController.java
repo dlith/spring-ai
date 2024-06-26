@@ -1,6 +1,5 @@
 package com.example.demo.controller;
 
-import org.apache.catalina.User;
 import org.springframework.ai.chat.client.ChatClient;
 import org.springframework.ai.chat.messages.SystemMessage;
 import org.springframework.ai.chat.messages.UserMessage;
