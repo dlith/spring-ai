@@ -19,6 +19,9 @@ spring:
   docker:
     compose:
       lifecycle-management: start_only
+weather:
+  api-key: ${WEATHER_API_KEY}
+  api-url: http://api.weatherapi.com/v1
 #  main:
 #    banner-mode: off
 #logging:
