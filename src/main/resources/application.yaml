@@ -10,7 +10,7 @@ spring:
       api-key: ${OPENAI_API_KEY}
       chat:
         options:
-          model: gpt-3.5-turbo
+          model: gpt-4o #gpt-3.5-turbo
   vectorstore:
     pgvector:
     index-type: HNSW
